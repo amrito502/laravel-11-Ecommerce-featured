@@ -12,6 +12,11 @@
             <option value="20">20 km</option>
             <option value="50">50 km</option>
             <option value="100">100 km</option>
+            <option value="300">300 km</option>
+            <option value="500">500 km</option>
+            <option value="500000">500000 km</option>
+            <option value="5000000">5000000 km</option>
+            <option value="500000000">500000000 km</option>
         </select>
         <br>
         <button type="submit">Search</button>
