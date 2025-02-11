@@ -8,6 +8,7 @@
     <ul>
         @foreach($nearbyProducts as $product)
             <li>{{ $product->name }}</li>
+            Latitude: {{ $product->latitude }}, Longitude: {{ $product->longitude }}
         @endforeach
     </ul>
 </body>

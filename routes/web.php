@@ -22,3 +22,9 @@ Route::post('/users', [UserController::class, 'store'])->name('users.store');
 // পণ্য রাউট
 Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
 Route::post('/products', [ProductController::class, 'store'])->name('products.store');
+
+
+Route::get('/search-products', [ProductController::class, 'showSearchForm'])->name('products.search.form');
+
+// পণ্য সার্চ করুন
+Route::get('/search-products/results', [ProductController::class, 'search'])->name('products.search');
